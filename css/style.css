@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Domine');
+
+body{
+	padding-top: 50px;
+	font-family: "Domine", sans-serif;
+	font-weight: 300;
+	font-size: 2em;
+	position: relative;
+}
+h1, h2, h3, h4, h5, h6{
+  	font-family:"Domine",sans-serif; 
+    font-weight: 100;
+    margin:0;
+}
+
+img{
+	max-width:200px;
+}
+.navbar{
+	border-radius: 0;
+	border: 0;
+}
+header .navbar-default .navbar-nav .active a{
+	font-weight: 700;
+	color: #eec856;
+	background:transparent;
+    border-bottom: 4px solid #eec856;
+    text-shadow: none;
+}
+header .navbar-default .navbar-nav .active a :hover{
+color: #e15d5f;
+background:transparent;	
+text-shadow: none;
+}
+/*NAV bar*/
+
+header .navbar-brand{
+	background: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-position: 15px 0;
+	height: auto;
+}
+
+header .navbar-brand h1{
+	color: white;
+	margin: 0;
+	font-size:1.8em;
+	font-weight: 400;
+	padding-left: 105px;
+}
+header .navbar-brand span.subhead{
+	display: block;
+	font-family: "Domine",sans-serif;	
+	font-size: .5em;
+	font-weight: 100;
+}
+header .navbar-toggle{
+	background-color: #279182;
+}
+header .navbar-default .navbar-toggle .icon-bar{
+	background-color: white;
+
+}
+
+@media only screen 
+and (max-width: 768px){
+	header .navbar-collapse.in {
+	background-color: rgba(0,0,0, .1);
+  }
+}
+
+
+
+
+footer .navbar-default{
+	background : transparent;
+}
+
+.page{
+	padding: 50px 0;
+}
+
+.page h2{
+	text-align: center;
+	margin-bottom: 30px;
+}
