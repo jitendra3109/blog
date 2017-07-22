@@ -1,2 +1,4 @@
-# My portfolio webpage
-[link go page](http://jsroyal.github.io)
+# Blog & Profile webpage
+link to go blog [jsroyal.io](http://jsroyal.github.io)
+
+Produly Hosting: Github pages 
